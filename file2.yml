@@ -1,0 +1,8 @@
+---
+- name: playbook
+  hosts: all
+  become: yes
+  tasks: 
+          - name: print the msg
+            debug:
+                msg: this is my play book
