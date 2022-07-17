@@ -6,5 +6,5 @@
   tasks:
       - name: install ansible 
         apt:
-              name: ansible
+              name: nginx
               state: latest
