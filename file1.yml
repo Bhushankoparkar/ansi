@@ -3,7 +3,7 @@ hosts: all
 become: yes
 gather_facts: yes
 tasks:
-        name: install ansible 
+      - name: install ansible 
         apt:
               name: ansible
               state: latest
