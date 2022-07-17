@@ -1,8 +1,9 @@
-name: playbook
-hosts: all
-become: yes
-gather_facts: yes
-tasks:
+---
+- name: playbook
+  hosts: all
+  become: yes
+  gather_facts: yes
+  tasks:
       - name: install ansible 
         apt:
               name: ansible
